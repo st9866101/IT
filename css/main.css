@@ -1,0 +1,135 @@
+@import './reset.css';
+body{
+    width: 100%;
+    height: 100%;
+}
+    
+.menu {
+    height: 100vh;
+    width: 300px;
+    background-color: #7C7C7C;
+    float: left;
+   
+    font-size: 30px;
+}
+ .title {
+     /*這邊的寬度100%是抓menu設定的寬度*/
+     width: 100%;
+     /*寫一個適合的高度*/
+     height: 220px;
+     /*設定底色為#4A4A4A*/
+     background-color: #4A4A4A;
+  
+      
+ }
+.menu .title span {
+    
+    color: #ffffff;
+    margin-left: 30%;
+    
+}
+
+.menu ul li {
+    font-size: 0.8em;
+    font-weight:900;
+    padding: 10px 30px;
+    color: #ffffff;
+    transition: 0.25s;
+}
+
+.menu ul li:hover {
+    background-color: #e29e9e;
+    color: #4a4a4a;
+}
+.menu .title .min_picture {
+   
+     background: url('../images/imgTag.jpg.png') no-repeat ;
+     background-size:300px auto;
+     background-size:300px auto;
+     height: 180px;
+     width: 300px;
+    border-radius: 50%;
+     display: inline-block;
+ }
+.list{
+    margin: 20px
+}
+
+.list li{
+    margin: 20px
+}
+ .menu .link{
+   width: 100%;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+ }
+ .menu .link div {
+     height: 20px;
+     width: 20px;
+     display: inline-block;
+        /*-----主要新增的樣式------*/
+    border: 1px solid #ffffff;
+
+    border-radius: 50px;
+    margin: 10px 10px;
+   /*-----主要新增的樣式------*/
+ }
+ .menu .link{
+   width: 100%;
+float: 330px
+   left: 0;
+   bottom: 0;
+ }
+
+ .menu .link .fb {
+     background: url('../images/facebook-square-social-logo_318-74909.jpg') no-repeat;
+     background-size: auto 20px;
+ }
+
+ .menu .link .github {
+     background: url('../images/github-sign_318-42173.jpg') no-repeat;
+     background-size: 20px auto;
+ }
+
+ .menu .link .mail {
+     background: url('../images/email-filled-closed-envelope_318-75717.jpg');
+     background-size: 20px auto;
+ }
+.content {
+     width: 100vw;
+     height: 100vh;
+ }
+.content .banner {
+     width: 100%;/*設定寬度為100%*/
+     height:330px;
+     background: url(../images/kieren-andrews-697601-unsplash.jpg);
+ }
+
+.content .banner span{
+     width: 100%;
+     height: 220px;
+    position: absolute;
+    margin: 3%;
+   color: whitesmoke;
+    font-size: 30px;
+    line-height: 150%;　
+ }
+.news{  
+width: 1620px;
+    height: 642px;
+   float: right;
+     background: url(../images/matthew-kane-756580-unsplash.jpg);
+    background-size: 1620px auto;
+    overflow: hidden;
+}
+
+.newsword{
+     margin: 5%;
+    font-size: 4em;
+    font-weight:900;
+    padding: 10px 30px;
+   line-height: 100px;　　
+    transition: 0.25s;
+}
+ 
